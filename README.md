@@ -3,7 +3,7 @@
 **abagraph** is a Prolog implementation of a graph-based dispute derivation algorithm for assumption-based argumentation (ABA).  The algorithm and associated theory is described in the paper:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Argument Graphs and Assumption-Based Argumentation](http://robertcraven.org/papers/2016_arggraphs.pdf).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Robert Craven and Francesca Toni. Artificial Intelligence 233, 2016, 1–59.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Robert Craven and Francesca Toni. *Artificial Intelligence*, volume 233, 2016, 1–59.
 
 ## Requirements
 
@@ -33,7 +33,7 @@ To hide the derivation steps (default), use:
 
     ?- set_quiet.
 
-To output the solutions, as found, to a `.dot` file for visualization with graphviz, use:
+To output the solutions, as found, to a `.dot` file for visualization with `graphviz`, use:
 
     ?- set_print.
 
@@ -53,15 +53,15 @@ To change strategies, use:
 
     ?- set_strategies(StratList).
 
-StratList has the form: [T,OJ,PS,OS,PR].
+StratList has the form: `[T,OJ,PS,OS,PR]`.
 
-- turn choice (T):
+- turn choice (`T`):
 
         p - proponent priority [DEFAULT]
         o - opponent priority
         s - smallest number of sentences/justification-pairs first
 
-- opponent justification set choice (OJ):
+- opponent justification set choice (`OJ`):
 
         n - newest
         o - oldest
@@ -69,7 +69,7 @@ StratList has the form: [T,OJ,PS,OS,PR].
         l - largest set of pending (unmarked) sentences
         lmb - lowest maximum 'branching' coefficient
 
-- sentence choice (proponent PS, and opponent OS):
+- sentence choice (proponent `PS`, and opponent `OS`):
 
         n - newest
         o - oldest
@@ -78,7 +78,7 @@ StratList has the form: [T,OJ,PS,OS,PR].
         be - sentence with smallest 'branching' coefficient (eager)
         bp - sentence with smallest 'branching' coefficient (patient)
 
-- proponent rule choice (PR):
+- proponent rule choice (`PR`):
 
         s - smallest rule body first
         l1 - look-ahead, 1-step [DEFAULT]
