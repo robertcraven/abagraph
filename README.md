@@ -2,8 +2,8 @@
 
 **abagraph** is a Prolog implementation of a graph-based dispute derivation algorithm for assumption-based argumentation (ABA).  The algorithm and associated theory is described in the paper:
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Argument Graphs and Assumption-Based Argumentation](http://robertcraven.org/papers/2016_arggraphs.pdf).  
-&nbsp;&nbsp;&nbsp;&nbsp;Robert Craven and Francesca Toni. Artificial Intelligence 233, 2016, 1–59.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Argument Graphs and Assumption-Based Argumentation](http://robertcraven.org/papers/2016_arggraphs.pdf).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Robert Craven and Francesca Toni. Artificial Intelligence 233, 2016, 1–59.
 
 ## Requirements
 
